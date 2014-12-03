@@ -14,13 +14,13 @@ import static org.junit.Assert.assertTrue;
 public class VerticaTestContextTest {
 
     @Before
-    public void setup() {
+    public void setUp() {
         context = new TestVerticaTestContext();
         context.setup();
     }
 
     @After
-    public void cleanup() {
+    public void tearDown() {
         context.cleanup();
     }
 
