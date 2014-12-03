@@ -5,6 +5,28 @@ Support for integration tests that run against real Vertica database.
 
 The library will make sure there is one schema per one test method run. It creates user and schema for each test method run.
 
+## Maven
+
+    <repositories>
+        <repository>
+            <id>QiiiP</id>
+            <name>QiiiP MavenRepo</name>
+            <url>http://mavenrepo.qiiip.org</url>
+        </repository>
+    </repositories>
+
+     <dependency>
+         <groupId>com.vertica</groupId>
+         <artifactId>vertica-integration-test</artifactId>
+         <version>1.0-SNAPSHOT</version>
+     </dependency>
+
+## Gradle
+
+    maven { url "http://mavenrepo.qiiip.org" }
+
+    testCompile 'com.vertica:vertica-integration-test:1.0-SNAPSHOT'
+
 ## How to write a test with Spring
 
 Create class that will provide connection credentials to Vertica server.
