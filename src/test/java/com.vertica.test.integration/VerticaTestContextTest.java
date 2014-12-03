@@ -127,11 +127,11 @@ public class VerticaTestContextTest {
         @Override
         public Credentials getDbAdminCredentials() {
             Credentials credentials = new Credentials();
-            credentials.setHost("vertica01-dev15.xenre.vendavo.com");
+            credentials.setHost("TODO: put here your vertica server");
             credentials.setPort("5433");
-            credentials.setDatabase("vpa");
-            credentials.setUsername("dbadmin");
-            credentials.setPassword("atleast6");
+            credentials.setDatabase("TODO: ");
+            credentials.setUsername("TODO: ");
+            credentials.setPassword("TODO: ");
 
             return credentials;
         }
