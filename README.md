@@ -5,8 +5,7 @@ Support for integration tests that run against real Vertica database.
 
 The library will make sure there is one schema per one test method run. It creates user and schema for each test method run.
 
-How to write a test with Spring
-===============================
+## How to write a test with Spring
 
 Create class that will provide connection credentials to Vertica server.
 
